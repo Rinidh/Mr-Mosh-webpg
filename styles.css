@@ -1,0 +1,257 @@
+body {
+  background-color: lightgrey;
+  margin: 0px;
+  margin-bottom: 800px;
+  font-family: calibri;
+}
+
+/*the top header*/
+header {
+  background-color: rgb(255, 255, 255);
+  height: 49px;
+  width: 1030px;
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+}
+
+.navs-div {
+  margin-right: 50px;
+  margin-left: 210px;
+  width: 535px;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: end;
+}
+
+.navs {
+  font-family: calibri;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.35px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-learning-path {
+  width: 140px;
+}
+
+.navs:hover {
+  opacity: 0.6;
+}
+
+.logo-div {
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  height: 47px;
+}
+
+.profile-pic {
+  height: 37px;
+  width: 37px;
+  border-radius: 37px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.extra-behind-header { /*to prevent header from covering content*/
+  height: 27px;
+}
+
+/* titles div */
+.titles-div {
+  background-color: rgb(61, 16, 158);
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 29px;
+  display: block;
+}
+
+.main-title {
+  padding-top: 30px;
+}
+
+.title-stmt {
+  font-size: 30px;
+}
+
+.enroll-button {
+  background-color: rgb(122, 74, 228);
+  color: white;
+  font-weight: bold;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: rgb(92, 46, 193);
+}
+
+.shopping-cart-pic {
+  height: 14px;
+}
+
+/*about-js section*/
+.about-js {
+  background-color: rgb(232, 231, 231);
+  padding-top: 50px;
+
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+}
+
+.about-js-left {
+  padding: 0px 73px;
+}
+
+.about-js-left h1 {
+  font-size: 28px;
+}
+
+.about-js-left p {
+  font-size: 16px;
+  color: rgb(57, 57, 57);
+}
+
+.about-js-right img {
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 12px;
+}
+
+.about-js-right div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+/*by the end section*/
+.by-the-end {
+  background-color: rgb(255, 255, 255);
+  padding: 5% 17%;
+}
+
+.by-the-end h3 {
+  margin: 0px;
+}
+
+.by-the-end ul {
+  list-style-type: none;
+  line-height: 35px;
+  padding: 0px;
+}
+
+.by-the-end ul li::before {
+  content: "\2713\0020";
+}
+
+.by-the-end div {
+  text-align: center;
+}
+
+/*your-instructor section*/
+.your-instructor {
+  background-color: rgb(232, 231, 231);
+  padding: 40px 220px;
+  height: 320px;
+}
+
+.your-instructor h1 {
+  font-size: 40px;
+}
+
+.your-instructor-main {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.pic {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.pic img {
+  height: 27%;
+  border: none;
+  border-radius: 50%;
+}
+
+.info {
+  line-height: 25px;
+  font-size: 17px;
+  color: rgb(49, 49, 49);
+}
+
+/*courses-included sec*/
+.courses-included {
+  background-color: lightgoldenrodyellow;
+  height: 700px;
+  position: relative;
+}
+
+.courses-included h1 {
+  font-size: 35px;
+  margin-top: 0px;
+  margin-left: 20%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.courses-included-main {
+  background-color: lightblue;
+  width: 300px;
+  height: 370px;
+  position: absolute;
+  left: 20%;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.part-1 img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.part-1-info {
+  padding-left: 13px;
+}
+
+.part-1-info p {
+  color: rgb(79, 79, 79);
+}
+
+.courses-included-main:hover {
+  width: 315px;
+  height: 385px;
+  left: 193px;
+}
+/*but the font size of info is not increasing*/
+
+
